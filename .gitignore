@@ -1,1 +1,66 @@
+# Node dependencies
+node_modules/
+
+# Generated frontend/backend output
+build/
+dist/
+
+# Environment variables and local configuration
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+
+# Runtime uploads and generated exports
+backend/uploads/
+uploads/
+exports/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test output
+coverage/
+
+# Tool caches
+.cache/
+.eslintcache
+
+# Local databases and database dumps
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
+*.bak
+
+# Temporary files
+tmp/
+temp/
+
+# Emacs backup and autosave files
 *~
+\#*\#
+.\#*
+
+# Vim temporary files
+*.swp
+*.swo
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Operating-system files and shortcuts
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Project-specific backups
+frontend-backup.txt
